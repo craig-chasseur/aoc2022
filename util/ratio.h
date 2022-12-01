@@ -6,7 +6,7 @@
 #include <optional>
 #include <utility>
 
-namespace aoc2021 {
+namespace aoc {
 
 class Ratio {
  public:
@@ -110,6 +110,6 @@ class Ratio {
   int64_t denominator_ = 1;
 };
 
-}  // namespace aoc2021
+}  // namespace aoc
 
 #endif  // UTIL_RATIO_H_

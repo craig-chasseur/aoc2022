@@ -9,7 +9,7 @@
 #include "absl/log/check.h"
 #include "absl/strings/str_split.h"
 
-namespace aoc2021 {
+namespace aoc {
 
 std::string ReadFile(const char* filename) {
   std::ifstream stream(filename);
@@ -62,4 +62,4 @@ std::vector<std::vector<std::string>> SplitByEmptyStrings(
   return splits;
 }
 
-}  // namespace aoc2021
+}  // namespace aoc

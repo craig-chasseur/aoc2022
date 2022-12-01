@@ -4,7 +4,7 @@
 
 #include "absl/log/check.h"
 
-namespace aoc2021::grid2 {
+namespace aoc::grid2 {
 
 Point Point::Rotate90(const Point& pivot, int turns) const {
   return pivot + (*this - pivot).Rotate90(turns);
@@ -41,4 +41,4 @@ Vec Vec::UnitStep() const {
   return step;
 }
 
-}  // namespace aoc2021::grid2
+}  // namespace aoc::grid2

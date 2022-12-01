@@ -20,7 +20,7 @@
 #include "absl/strings/str_join.h"
 #include "absl/strings/string_view.h"
 
-namespace aoc2021::grid2 {
+namespace aoc::grid2 {
 
 struct Vec;
 
@@ -653,6 +653,6 @@ std::string RenderPoints(const PointContainer& points) {
   return absl::StrJoin(view, "\n");
 }
 
-}  // namespace aoc2021::grid2
+}  // namespace aoc::grid2
 
 #endif  // UTIL_GRID2_H_

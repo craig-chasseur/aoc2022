@@ -22,7 +22,7 @@
 #include "absl/strings/str_split.h"
 #include "absl/strings/string_view.h"
 
-namespace aoc2021 {
+namespace aoc {
 
 template <size_t dim>
 class DimensionGrid {
@@ -798,6 +798,6 @@ class DimensionGrid {
   }
 };
 
-};  // namespace aoc2021
+};  // namespace aoc
 
 #endif  // UTIL_DIMENSION_GRID_H_

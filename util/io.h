@@ -9,7 +9,7 @@
 #include "absl/strings/numbers.h"
 #include "absl/strings/string_view.h"
 
-namespace aoc2021 {
+namespace aoc {
 
 // Returns the whole contents of the text file specified by `filename`.
 std::string ReadFile(const char* filename);
@@ -59,6 +59,6 @@ std::vector<IntType> ParseMultiBinary(const std::vector<std::string>& strings) {
 std::vector<std::vector<std::string>> SplitByEmptyStrings(
     std::vector<std::string> strs);
 
-}  // namespace aoc2021
+}  // namespace aoc
 
 #endif  // UTIL_IO_H_

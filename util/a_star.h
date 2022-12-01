@@ -9,7 +9,7 @@
 
 #include "absl/container/flat_hash_map.h"
 
-namespace aoc2021 {
+namespace aoc {
 
 template <typename Node, typename Cost>
 struct BestPath {
@@ -82,6 +82,6 @@ auto AStar(Node start, Node goal, AdjacentFn get_adjacent, CostFn edge_cost)
   return std::nullopt;
 }
 
-}  // namespace aoc2021
+}  // namespace aoc
 
 #endif  // UTIL_A_STAR_H
