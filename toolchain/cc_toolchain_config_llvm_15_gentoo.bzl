@@ -93,7 +93,7 @@ def _impl(ctx):
         ctx = ctx,
         features = features,
         cxx_builtin_include_directories = [
-            "/usr/lib/clang/15.0.3/include",
+            "/usr/lib/clang/15.0.5/include",
             "/usr/include",
         ],
         toolchain_identifier = "local",
