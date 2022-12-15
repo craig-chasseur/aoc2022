@@ -12,3 +12,16 @@ cc_binary(
         "@com_googlesource_code_re2//:re2",
     ],
 )
+
+cc_binary(
+    name = "part2",
+    srcs = ["part2.cc"],
+    deps = [
+        "//util:grid2",
+        "//util:io",
+        "@com_google_absl//absl/container:inlined_vector",
+        "@com_google_absl//absl/log:check",
+        "@com_google_absl//absl/strings",
+        "@com_googlesource_code_re2//:re2",
+    ],
+)
